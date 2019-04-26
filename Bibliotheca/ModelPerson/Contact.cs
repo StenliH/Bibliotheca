@@ -22,5 +22,22 @@
 		/// Phone number of the person.
 		/// </summary>
 		public string PhoneNo { get; private set; }
+
+		/// <summary>
+		/// Creating new Contact Info.
+		/// </summary>
+		/// <param name="firstName"></param>
+		/// <param name="lastName"></param>
+		/// <param name="postalAddress"></param>
+		/// <param name="email"></param>
+		/// <param name="phoneNo"></param>
+		public Contact(string firstName, string lastName, Address postalAddress, string email = null, string phoneNo = null)
+		{
+			FirstName = firstName;
+			LastName = lastName;
+			PostalAddress = postalAddress;
+			Email = email;
+			PhoneNo = phoneNo;
+		}
 	}
 }

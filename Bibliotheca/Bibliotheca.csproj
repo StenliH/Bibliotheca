@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -58,7 +60,7 @@
     <Compile Include="ModelPerson\Contact.cs" />
     <Compile Include="ModelPerson\Employee.cs" />
     <Compile Include="ModelItem\Item.cs" />
-    <Compile Include="ModelPerson\Person.cs" />
+    <Compile Include="ModelPerson\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ModelTransaction\Reservation.cs" />

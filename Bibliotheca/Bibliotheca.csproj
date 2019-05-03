@@ -52,19 +52,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModelPerson\Address.cs" />
-    <Compile Include="ModelItem\Audio.cs" />
-    <Compile Include="ModelItem\Book.cs" />
-    <Compile Include="ModelTransaction\Borrow.cs" />
-    <Compile Include="ModelPerson\Client.cs" />
-    <Compile Include="ModelPerson\Contact.cs" />
-    <Compile Include="ModelPerson\Employee.cs" />
-    <Compile Include="ModelItem\Item.cs" />
-    <Compile Include="ModelPerson\User.cs" />
+    <Compile Include="Authentication.cs" />
+    <Compile Include="Model\Admin.cs" />
+    <Compile Include="Model\Bibliotheca.cs" />
+    <Compile Include="Model\Borrow.cs" />
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ModelTransaction\Reservation.cs" />
-    <Compile Include="ModelTransaction\Transaction.cs" />
+    <Compile Include="Model\Reservation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

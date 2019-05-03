@@ -54,8 +54,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientTests.cs" />
-    <Compile Include="EmployeeTests.cs" />
+    <Compile Include="Model\EmployeeTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
